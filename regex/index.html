@@ -1,13 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="hu">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + TS</title>
   </head>
-  <body>
+  <body><div class="form">
+    <hr class="a">
+      Teljes név:<input placeholder="Kiss Lajos József" type="text" id="fullName"><br>
+      Ország:<input placeholder="Magyarország" type="text" id="country"><br>
+      Város:<input placeholder="Budapest" type="text" id="city"><br>
+      Utca, házszám:<input placeholder="Haller utca 12" type="text" id="address"><br>
+      Irányítószám:<input placeholder="1234" type="text" id="zipCode"><br>
+      Bankkártya szám:<input placeholder="1234-5678-1234-5678" type="text" id="cardNumber"><br>
+      Ellenőrző kód:<input placeholder="123" type="number" id="ccnCode"><br>
+      Bankkártyára írt név:<input placeholder="Kiss Lajos" type="text" id="nameOnCard"><br>
+      <p id="errorMessage" style="color: rgb(255, 0, 0);"></p>
 
+      <hr>
+      <button id="btnPay">Fizetés</button>
+      <br><hr>
+    </div>
 
 
 
